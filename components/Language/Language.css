@@ -1,0 +1,24 @@
+.language1 svg{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    color:black;
+}
+.language1 select{
+    padding-right: 18px;
+    border-radius: 5px;
+    padding-left: 33px;
+    height: 33px;
+    background-color: transparent;
+    color: black;
+}
+#lan1 option{
+    background-color: rgba(0, 81, 255, 0.856);
+    color: white;
+}
+.language1{
+    margin-top: 20px;
+    margin-left: -20px;
+}

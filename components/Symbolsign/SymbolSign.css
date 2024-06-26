@@ -1,0 +1,15 @@
+.symbol img{
+    height: 45px;
+}
+#main_top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 60px;
+    margin-top: 15px;
+    align-items: center;
+}
+.signin{
+    font-size: 19px;
+    font-weight: 700;
+}

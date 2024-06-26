@@ -1,0 +1,77 @@
+#watchtxt_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 150px;
+    padding-left: 180px;
+}
+
+.wtch_tv {
+    font-size: 47px;
+    font-weight: 800;
+}
+
+.stream_tv {
+    font-size: 25px;
+    font-weight: 400;
+    width: 550px;
+    margin-top: -10px;
+}
+
+.thirdimg img {
+    height: 450px;
+    width: 630px;
+    position: relative;
+    z-index: 1000;
+}
+
+.thirdimg video {
+    height: 220px;
+    position: absolute;
+    right: 270px;
+    margin-top: 40px;
+    z-index: 2;
+
+}
+
+.thirdimg {
+    margin-top: -100px;
+    margin-left: -110px;
+}
+
+
+@media ((min-width:776px) and (max-width: 992px)) {
+    #watchtxt_container {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        gap: 60px;
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .wtch_tv {
+        font-size: 36px;
+    }
+
+    .stream_tv {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .thirdimg img {
+        height: 300px;
+        width: 420px;
+    }
+
+    .thirdimg video {
+        height: 150px;
+        right: 340px;
+        margin-top: 30px;
+    }
+
+    .thirdimg {
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+}

@@ -1,0 +1,83 @@
+.firstchild{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.8) 100%),url("../../../Asserts/banner.jpg");
+    ;
+    height: 700px;
+    border-bottom: 9px solid rgb(77, 76, 76);
+}
+.unlimited{
+    font-size: 49px;
+    font-weight: 800;
+}
+.watch{
+    font-size: 25px;
+    margin-top: -20px;
+}
+.watch1{
+    font-size: 21px;
+    margin-top: -5px;
+}
+.frst_content{
+    text-align: center;
+    margin-top: 210px;
+}
+.getstarted_btn{
+    position: relative;
+    left: 300px;
+}
+.getstarted_btn
+.brder{
+    background-color: gray;
+    margin-top: -10px;
+    height: 7px;
+}
+.forthchild{
+    background-color: black;
+    color: white;
+    /* padding-bottom: 20px; */
+}
+.brder1{
+    height: 7px;
+    background-color: grey;
+    margin-top: 20px;
+}
+.brder2{
+    height: 7px;
+    background-color: gray;
+}
+.brder3{
+    height: 7px;
+    background-color: gray;
+    /* margin-top: -22px; */
+}
+.frequent{
+    background-color: black;
+    color: white;
+    /* padding: 20px; */
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.sixthchild{
+    margin-top: -32px;
+    border-color: black;
+
+}
+.ready_watch{
+    color: white;
+    background-color: black;
+}
+.seventhchild{
+    margin-top: 0px;
+}
+/* @media screen and (min-width:768px){
+    .unlimited{
+        font-size: 32px;
+    }
+    .watch{
+        font-size: 18px;
+    }
+
+} */

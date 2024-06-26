@@ -1,0 +1,11 @@
+.title_row{
+    margin-left: 100px;
+    color: white;
+} 
+main{
+    background-color: black;
+    overflow-y: hidden;
+    /* position: relative; */
+    /* top: 20px; */
+}
+

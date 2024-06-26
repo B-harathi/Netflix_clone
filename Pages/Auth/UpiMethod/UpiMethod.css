@@ -1,0 +1,46 @@
+.bhim img{
+    height: 50px;
+}
+.auto_pay{
+    /* border: 2px solid black; */
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 200px;
+}
+#step{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.you_can{
+    font-size: 17px;
+    margin-top: -20px;
+}
+#upi_app select{
+    height: 60px;
+    width: 420px;
+}
+.upi_id input{
+    height: 60px;
+    width: 405px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.how_do{
+    font-size: 14px;
+}
+.upi_Btn button{
+    padding-left: 197px;
+    padding-right: 197px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: red;
+    border: 0;
+    border-radius: 2PX;
+}
+.upi_set{
+    font-size: 32px;
+    margin-top: -10px;
+}

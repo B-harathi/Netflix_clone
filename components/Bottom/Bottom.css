@@ -1,0 +1,31 @@
+.help_bottom{
+    background-color: black;
+    color: white;
+    padding-left: 180px;
+    padding-bottom: 30px;
+    line-height: 35px;
+    height: 370px;
+    
+}
+.bottom_questions{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* gap: 10px; */
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-right: 170px;
+    
+    
+}
+.bot_ques{
+    text-decoration: underline; 
+}
+.bottom_phone{
+    padding-top: 70px;
+}
+.language_opt{
+    position: absolute;
+    float: left;
+    padding-top: 10px;
+}

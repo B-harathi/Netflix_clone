@@ -1,0 +1,81 @@
+#imgtxt_container{
+    display: flex;
+    padding-top: 165px;
+    padding-left: 173px;
+    background-color: black;
+    border-bottom: 10px gray;
+    padding-bottom: 90px;
+    gap: 140px;
+}
+.enjoy{
+    color: white;
+
+}
+.frstimg img{
+    height: 412px;
+    width: 564px;
+    z-index: -100;
+    margin-left: -110px;
+}
+.frstimg video{
+    height: 230px;
+    position: absolute;
+    right: 266px;
+    margin-top: 84px;
+    z-index: 1;
+    
+}
+.enjoy_tv{
+    font-size: 47px;
+    font-weight: 800;
+}
+.watch_tv{
+    font-size: 24px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+.frstimg{
+    margin-top: -90px;
+}
+
+@media ((min-width:776px) and (max-width: 992px)) {
+    #imgtxt_container {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      padding-left: 0;
+      padding-bottom: 50px;
+      gap: 50px;
+    }
+  
+    .enjoy {
+      text-align: center;
+    }
+  
+    .frstimg img {
+      height: 350px;
+      width: 465px;
+      margin-left: 0;
+    }
+  
+    .frstimg video {
+      height: 190px;
+      right: 209px;
+      margin-top: 75px;
+    }
+  
+    .enjoy_tv {
+      font-size: 32px;
+    }
+  
+    .watch_tv {
+      font-size: 18px;
+      margin-top: -10px;
+    }
+  
+    .frstimg {
+      margin-top: 0;
+    }
+  }
+
+

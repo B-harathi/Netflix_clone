@@ -1,0 +1,45 @@
+.footer_navbar{
+    background-color: black;
+    color: gray;
+    padding-top: 130px;
+    padding-left: 270px;
+    /* height: 200px; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social_icons{
+    width: 220px;
+    /* border: 2px solid white; */
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+.audio_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 13px;
+}
+.audio_container a{
+    font-size: smaller;
+    text-decoration: none;
+    color: grey;
+}
+.audio_container a:hover{
+    text-decoration: underline;
+}
+.service_code button{
+    padding: 6px 10px;
+    border: 0;
+    background: transparent;
+    color: gray;
+    border: 2px solid gray;
+}
+.service_code button:hover{
+    color: white;
+    cursor: pointer;
+}
+.service_code{
+    padding-top: 20px;
+}

@@ -1,0 +1,58 @@
+#netimg{
+    margin-left: 173px;
+    padding-top: 25px;
+    display: flex;
+}
+#netimg select{
+    font-size: 15px;
+    font-weight:600;
+}
+#netimg button{
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight:600;
+}
+#netimg button:hover{
+    background-color: rgb(108, 7, 7);
+}
+#lan{
+    padding-left: 32px;
+    height: 32px;
+    background: transparent;
+    color: white;
+}
+#lan option{
+    background-color: rgba(0, 81, 255, 0.856);
+    color: white;
+}
+.language{
+    display: flex;
+    margin-left: 770px;
+    gap: 20px;
+    margin-top: 5px;
+}
+.language svg{
+    height: 17px;
+    width: 17px;
+    color: white;
+    position: relative;
+    left: 45px;
+    top: 8px;
+}
+.language select{
+    padding-right: 10px;
+    border-radius: 5px;
+}
+@media ((min-width:776px) and (max-width: 992px)){
+    #netimg{
+        margin-left: 23px;
+        padding-top: 25px;
+    }
+    #netimg img{
+       height: 25px;
+    }
+    .language{
+        margin-left: 370px;
+    }
+}
+

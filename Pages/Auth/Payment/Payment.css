@@ -1,0 +1,92 @@
+#payment{
+    /* justify-content: center; */
+    /* align-self: center; */
+    text-align: center;
+    /* margin-top: 70px; */
+}
+.your_payment{
+    width: 430px;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: fit-content; */
+}
+.secure_payment{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top: -10px;
+    /* width: fit-content; */
+}
+.falock{
+    border: 3px solid  #E50914;
+    color:  #E50914;
+    width: 18px;
+    height: 18px;
+    /* height: 40px; */
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+#end_end{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    text-align: right;
+    margin-left: 58%;
+    margin-right: auto;
+    margin-top: -10px;
+    /* justify-content: right;lk */
+    /* margin-left: 50%; */
+    
+}
+#step_Three{
+    font-size: small;
+    margin-top: 50px;
+    /* line-height: 0px; */
+}
+.howto_Pay{
+    font-size: 32px;
+    margin-top: -10px;
+}
+.your_payment{
+    font-size: 18px; 
+}
+.lock_payment{
+    margin-top: 60px;
+}
+.payment_creait{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+    .frst_pay button{ 
+        width: 500px;
+        height: 63px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 15px;
+        /* background-color: white; */
+        
+    
+}
+#lock{
+    padding-bottom: 150px;
+}
+.card{
+    position: absolute;
+}
+
+
+
+
+
+

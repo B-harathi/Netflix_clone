@@ -1,0 +1,46 @@
+.main-rows ul{
+    list-style-type: none;
+    /* overflow-x: auto; */
+
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: relative;
+    /* top: -30px;  */
+    height: 100px;
+    z-index: 1;
+}
+.left-arrow{
+    position: relative;
+    top: 100px;
+    margin-left: 0px;
+    padding: 5px;
+    background-color: black;
+    opacity: 0.9;
+    border: 0;
+    color: white;
+    display: none; 
+    font-size: 30px;
+}
+.right-arrow{
+    position: relative;
+    top: -60px;
+    z-index: 2;
+    float: right;
+    right: 30px;
+    padding: 7px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.right-arrow:hover{
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    padding:7px;
+    /* position: relative; */
+}

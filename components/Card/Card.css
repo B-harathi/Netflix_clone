@@ -1,0 +1,227 @@
+/* .card-img {
+    position: relative;
+  }
+  
+
+
+  .card-img img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .card-content {
+    position: absolute;
+    visibility: hidden;
+    background-color: #181818;
+    color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 59px;
+    height: 110px;
+    display: grid;
+    justify-content: space-between;
+    row-gap: 10px;
+    z-index: 10;
+    line-height: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .left-icons{
+    display: grid;
+    grid-template-columns: 20% 20% 20% auto;
+  }
+  .down_arrow{
+    margin-left: 60px;
+  }
+  .card-img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .card-img:hover img,
+  .card-img:hover .card-content {
+    transform: scale(1.1);
+    visibility: visible;
+
+  }
+
+  .rating{
+    color: green;
+    margin-top: -15px;
+  }
+  .movie-title{
+    font-size: smaller;
+    margin-top: -15px;
+  }
+  .plus-icon,
+  .thumbsup_icon,
+  .down_arrow{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+  } */
+
+  .card-img {
+    position: relative;
+    overflow: hidden; /* Add this to prevent overflow */
+    border-radius: 10px;
+  }
+  
+  .card-img img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  }
+  
+  .card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(24, 24, 24, 0.8); /* Use a semi-transparent background */
+    color: white;
+    padding: 20px 60px; /* Adjust padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    opacity: 0; /* Initially hide the content */
+    transition: opacity 0.3s ease; /* Add transition for smooth fade-in */
+    border-radius: 10px; /* Add border-radius to match the image */
+  }
+  
+  .left-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-icons > * {
+    margin-right: 10px; /* Add spacing between icons */
+  }
+  
+  .card-img:hover img {
+    transform: scale(1.1);
+  }
+  
+  .card-img:hover .card-content {
+    opacity: 1; /* Show the content on hover */
+    /* transform: translateY(100px);
+    z-index: 2; */
+  }
+  
+  .rating {
+    color: green;
+    margin-top: -15px;
+  }
+  
+  .movie-title {
+    margin-top: 10px;
+    font-size: smaller;
+    margin-top: -15px;
+  }
+  
+  .plus-icon,
+  .thumbsup_icon,
+  .down_arrow {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex; /* Add this to center the icons */
+    justify-content: center; /* Add this to center the icons */
+  }
+  /* .thumbs_down {
+    display: none;
+  }
+  .thumbsup_icon:hover + .thumbs_down {
+    display: block;
+    animation-name: thumbsdown;
+    animation-duration: 0.3s;
+  }
+  
+  @keyframes thumbsdown {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } */
+  .like_this{
+    display: none;
+  }
+  .thumbsup_icon:hover + .like_this{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    left: 43%;
+    font-size: 12px;
+    background-color:white;
+    color: black;
+    font-weight: 700;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .addto_my{
+    display: none;
+  }
+  .plus-icon:hover + .addto_my{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 23%;
+    font-size: 12px;
+    background-color:white;
+    color: black;
+    font-weight: 700;
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+  .more_info{
+    display: none;
+  }
+  .down_arrow:hover + .more_info{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 53px;
+    left: 54%;
+    font-size: 12px;
+    background-color:white;
+    color: black;
+    font-weight: 700;
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+  .thumbs_collection {
+    position: absolute;
+    top: 0;
+    left: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 13px;
+    height: 58px;
+    padding: 3px 10px 5px 5px;
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.thumbsup_icon:hover + .thumbs_collection {
+    visibility: visible;
+}
+  
+
+
+ 

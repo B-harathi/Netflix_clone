@@ -1,0 +1,98 @@
+#credit_option{
+    display: grid;
+    text-align: left;
+    max-width: 440px;
+    /* border: 2px solid black; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding-bottom: 200px;
+    margin-top: -10px;
+}
+
+#step{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.set_Up{
+    font-size: 32px;
+    margin-top: -30px;
+}
+.card_num input{
+    height: 45px;
+    width: 400px;
+}
+#expiration_date{
+    display: flex; 
+    gap: 12px; 
+}
+#expiration_date input{
+    height: 45px;
+    width: 187px;
+}
+.name_card input{
+    height: 45px;
+    width: 400px;
+}
+.name_card{
+    display: grid;
+    row-gap: 10px;
+
+}
+.card_details{
+    display: grid;
+    row-gap: 10px;
+    margin-top: 20px;
+    
+}
+.card_details input{
+    border-radius:3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+.basic_plan input{
+    background-color: #F2F2F2;
+    margin-top: 10px;
+    height: 60px;
+}
+#statement{
+    margin-top: 20px;
+}
+.any_payment{
+    font-size: 13px;
+}
+.by_check{
+    font-size: 13px;  
+}
+#agree_chk input{
+    height: 20px;
+}
+#start_Btn button{
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 20px;
+    background-color: rgb(229,7,20);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.this_page{
+    font-size: 13px;
+}
+#terms_condition{
+    color: #0071EB;
+}
+.card{
+    height: 20px;
+    display: flex;
+}
+
+

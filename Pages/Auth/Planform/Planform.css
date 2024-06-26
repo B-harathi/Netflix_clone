@@ -1,0 +1,152 @@
+.planform_container{
+    border: 2px solid black;
+    display: flex;
+    margin-top: 100px;
+    
+}
+.step_onethree{
+    font-size: small;
+}
+.choose_three{
+    font-size: 30px;
+    margin-top: -10px;
+}
+#choose_plans{
+    margin-left: 160px;
+    margin-top: 60px;
+    margin-right: 150px;
+    padding-bottom: 130px;
+    /* display: flex; */
+}
+.quality_hd{
+    font-size: smaller;
+    line-height: 20px;
+}
+.basic_pack{
+    background-color: rgb(68, 67, 67);
+    color:white;
+    height: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: -22px;
+    /* padding: 10px; */
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 292px;
+    right: -1px;
+    margin-top: -10px;
+    text-align: center;
+    z-index: -1;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    /* z-index: 1; */
+}
+.premimum{
+    border: 1px solid grey;
+    width: 250px;
+    background-color: white;
+    /* padding: 10px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    font-size: smaller;
+    position: relative;
+    box-shadow: 1px 2px 5px 2px grey;
+    /* z-index: 1; */
+}
+.premimum1{
+    border: 1px solid grey;
+    width: 250px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: smaller;
+    position: relative;
+    box-shadow: 1px 2px 5px 2px grey;
+}
+.premimum:hover{
+    transform: scale(1.1);
+}
+
+.premium_4k{
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right , blue, rgb(149, 11, 149), red);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+}
+#text_contain{
+    line-height: 10px;
+}
+#text_contain1{
+    line-height: 15px;
+}
+.next_Btn button{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    background-color:  #E50914;
+    color: white;
+    border: none;
+     border-radius: 5px;
+     margin-top: 20px;
+     /* justify-content: center; */
+}
+.next_Btn{
+    text-align: center;
+}
+
+#plan_container{
+    display: flex;
+    margin-top: 55px;
+    gap: 15px;
+    position: relative;
+    z-index: 1000;
+}
+
+/* second div standard */
+.standard_4k{
+    background: linear-gradient(to right , blue, rgb(149, 11, 149));
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+
+}
+
+/* third div basic */
+.basic_4k{
+        background: linear-gradient(to right , blue,rgb(84, 31, 170));
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 10px;
+    
+    }
+
+    /* fourth div mobile */
+    .mobile_4k{
+        background: linear-gradient(to right , blue,rgb(58, 95, 159));
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 10px;
+    
+    }

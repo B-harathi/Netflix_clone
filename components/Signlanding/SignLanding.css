@@ -1,0 +1,17 @@
+.footer1{
+    background-color: #F3F3F3;
+    color: rgb(77, 76, 76);
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 35px;
+
+}
+.helpcenter1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    font-size: 13px;
+    margin-right: 200px;
+    text-decoration: none;
+}

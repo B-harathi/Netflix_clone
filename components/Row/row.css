@@ -1,0 +1,10 @@
+.section-title{
+    display: flex;
+    padding-left: 49px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    
+}

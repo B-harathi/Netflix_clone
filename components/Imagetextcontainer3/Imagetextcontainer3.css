@@ -1,0 +1,47 @@
+.kids_container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 170px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.create{
+    font-size: 47px;
+    font-weight: 800;
+}
+.profile{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -15px;
+    width: 600px;
+}
+.kidimg img{
+    height: 440px;
+}
+@media ((min-width:776px) and (max-width: 992px)) {
+    .kids_container {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-left: 0;
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+  
+    .create {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .profile {
+      font-size: 18px;
+      text-align: center;
+      margin-top: -10px;
+      width: 700px;
+    }
+  
+    .kidimg img {
+      height: 300px;
+      margin-top: 30px;
+    }
+  }

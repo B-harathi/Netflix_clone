@@ -1,0 +1,45 @@
+.signin_form{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.4) 100%),url("../../../Asserts/banner.jpg");
+    height: 800px;
+    color: white;
+    font-size: 15px;
+    /* font-weight: 500; */
+}
+.signin_page img{
+    height: 40px;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+#entry_signin{
+    background-color: rgba(0, 0, 0,0.5);
+    width: fit-content;
+    padding: 60px;
+    /* justify-items: center; */   
+}
+.forget{
+    text-align: center;
+}
+.forget1{
+    font-size: 14px;
+    text-align: center;
+}
+.now{
+    font-weight: 500;
+}
+.learnmore{
+    font-size: 12px;
+    padding-top: 15px;
+}
+.more{
+    color: rgb(71, 93, 236);
+}
+.sform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footersignin{
+    margin-top: -16px;
+}
+
+

@@ -1,0 +1,62 @@
+
+.form_main{
+    align-items: center;
+}
+.create_password{
+    padding-bottom: 140px;
+}
+.regform{
+    margin-left: 540px;
+    margin-top: 50px;
+}
+.regform input{
+    padding-left: 20px;
+    padding-right: 220px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 10px;
+    
+}
+.regform button{
+    padding-left: 193px;
+    padding-right: 193px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    background-color:  #E50914;
+    color: white;
+    border: none;
+     border-radius: 5px;
+}
+.createform{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(54, 53, 53);
+    margin-top: -10px;
+}
+.justform{
+    font-size: 19px;
+    margin-top: -20px;
+
+}
+.stepofthree{
+    font-size: 13px;
+}
+.mail_pass{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 5px solid black; */
+}
+.mailbox_input{
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cancel{
+    margin-top: 0px
+}
