@@ -2,23 +2,23 @@ import React from 'react'
 // import Button from '../../../components/Button/Button'
 import './Page.css'
 // import Input from '../../../components/Input/Input'
-import Text from '../../components/Text/Text';
-import InputButton from '../../components/InputButton/InputButton';
-import Nav from '../../components/Nav/Nav';
-import netimg from '../../Asserts/netflix.svg';
-import Imagetextcontainer from '../../components/Imagetextcontainer/Imagetextcontainer';
-import a from '../../Asserts/tv.png';
-import b from '../../Asserts/video/tvVideo1.m4v';
-import Imagetextcontainer2 from '../../components/Imagetextcontainer2/Imagetextcontainer2';
-import c from '../../Asserts/strangeThings.jpg';
-import d from '../../Asserts/tvImg2.png';
-import e from '../../Asserts/video/tvVideo2.m4v';
-import Imagetxtcontainer from '../../components/Imagetxtcontainer/Imagetxtcontainer';
-import Imagetextcontainer3 from '../../components/Imagetextcontainer3/Imagetextcontainer3';
-import f from '../../Asserts/children.png';
-import n from '../../Asserts/download.jpg';
-import QuestionAnswer from '../../components/Askedqa/QuestionAnswer';
-import Bottom from '../../components/Bottom/Bottom';
+import Text from '../../../components/Text/Text';
+import InputButton from '../../../components/InputButton/InputButton';
+import Nav from '../../../components/Nav/Nav';
+import netimg from '../../../Asserts/netflix.svg';
+import Imagetextcontainer from '../../../components/Imagetextcontainer/Imagetextcontainer';
+import a from '../../../Asserts/tv.png';
+import b from '../../../Asserts/video/tvVideo1.m4v';
+import Imagetextcontainer2 from '../../../components/Imagetextcontainer2/Imagetextcontainer2';
+import c from '../../../Asserts/strangeThings.jpg';
+import d from '../../../Asserts/tvImg2.png';
+import e from '../../../Asserts/video/tvVideo2.m4v';
+import Imagetxtcontainer from '../../../components/Imagetxtcontainer/Imagetxtcontainer';
+import Imagetextcontainer3 from '../../../components/Imagetextcontainer3/Imagetextcontainer3';
+import f from '../../../Asserts/children.png';
+import n from '../../../Asserts/download.jpg';
+import QuestionAnswer from '../../../components/Askedqa/QuestionAnswer';
+import Bottom from '../../../components/Bottom/Bottom';
 const Page1 = () => {
   return (
     <div className='landingpage_container'>
