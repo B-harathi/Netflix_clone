@@ -30,7 +30,7 @@ const AppRoute = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Page1 />} />
+        <Route path="/signin" element={<Page1 />} />
         <Route path="/signin" element={<Signin signin={x} />} />
         <Route path="/signout" element={<Signout signout={y} />} />
         <Route path="/signup" element={<Signup />} />
