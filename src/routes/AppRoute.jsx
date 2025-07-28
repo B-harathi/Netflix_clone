@@ -30,13 +30,13 @@ const AppRoute = () => {
     <BrowserRouter>
     <Routes>
         <Route
-        path="/"
+        path="/page"
         element={<Page1/>}
         />
     </Routes>
     <Routes>
         <Route
-        path='/signin'
+        path='/'
         element={<Signin signin={x} />}
         />
     </Routes>

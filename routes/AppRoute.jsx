@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter ,Route, Routes} from 'react-router-dom'
-import Page1 from '../Pages/Public/Landingpage/Page1';
+import { BrowserRouter ,Route, Routes, Navigate } from 'react-router-dom'
+// import Page1 from '../Pages/Public/Landingpage/Page1';
 import Signin from '../Pages/Auth/Signin/Signin';
 import x from '../Asserts/netflix.svg';
 import y from '../Asserts/netflix.svg';
@@ -23,6 +23,7 @@ import q from '../Asserts/other.png';
 // import i from '../../../my-app/src/Asserts/netflix_logo_N.png'
 import MainHome from '../Pages/portal/MainHome/MainHome'
 import MyList from '../Pages/portal/MyList/MyList'
+import Page1 from '../Pages/Public/Landingpage/Page1';
 // import WishList from '../components/WishList/WishList'
 // import t from '../../../my-app/src/Asserts/'
 
@@ -30,8 +31,9 @@ const AppRoute = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/signin" element={<Page1 />} />
-        <Route path="/" element={<Signin signin={x} />} />
+        <Route path="/home" element={<Page1 />} />
+        <Route path="/signin" element={<Signin signin={x} />} />
+        <Route path="" element={<Navigate to="/signup" replace />} />
         <Route path="/signout" element={<Signout signout={y} />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/SignUp2" element={<SignUp2 />} />
